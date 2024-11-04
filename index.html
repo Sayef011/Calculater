@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+
+    <!-- LINKING GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic" rel="stylesheet" />
+
+    <!-- LINKING CSS MAIN FILE -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section id="calculater">
+        <div class="container d-flex">
+            <h1>Welcome to Calculate Me!</h1>
+            <div class="row">
+                <input type="text" class="input" readonly>
+            </div>
+            <div class="row">
+                <button oneclick="clearDisplay('AC')" class="button gray">AC</button>
+                <button oneclick="appendToDisplay('±')" class="button gray">±</button>
+                <button oneclick="appendToDisplay('%')" class="button gray">%</button>
+                <button oneclick="appendToDisplay('/')" class="button orange">/</button>
+            </div>
+
+            <div class="row">
+                <button oneclick="appendToDisplay('7')" class="button">7</button>
+                <button oneclick="appendToDisplay('8')" class="button">8</button>
+                <button oneclick="appendToDisplay('9')" class="button">9</button>
+                <button oneclick="appendToDisplay('*')" class="button orange">*</button>
+            </div>
+
+
+            <div class="row">
+                <button oneclick="appendToDisplay('4')" class="button">4</button>
+                <button oneclick="appendToDisplay('5')" class="button">5</button>
+                <button oneclick="appendToDisplay('6')" class="button">6</button>
+                <button oneclick="appendToDisplay('-')" class="button orange">-</button>
+            </div>
+
+
+            <div class="row">
+                <button oneclick="appendToDisplay('4')" class="button">1</button>
+                <button oneclick="appendToDisplay('2')" class="button">2</button>
+                <button oneclick="appendToDisplay('1')" class="button">3</button>
+                <button oneclick="appendToDisplay('+')" class="button orange">+</button>
+            </div>
+
+            <div class="row">
+                <button oneclick="appendToDisplay('0')" class="button zero">0</button>
+                <button oneclick="appendToDisplay('.')" class="button">.</button>
+                <button oneclick="calculate('=')" class="button orange">=</button>
+            </div>
+        </div>
+    </section>
+    <!-- LINKING MAIN JS FILE -->
+    <script src="js/app.js"></script>
+</body>
+</html>

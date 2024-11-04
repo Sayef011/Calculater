@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+font-family: "roboto" sans-serif;
+background: #8E0E00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.container{
+margin: auto;
+    background-color: black;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 20px;
+    transform: translateY(10%);
+}
+.container h1{
+    color: white;
+    font-weight: 700;
+    margin: 20px 0;
+    padding: 20px 0 0;
+}
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button.button {
+    border-radius: 100%;
+    margin: 5px 4px;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
+    font-weight: 600;
+    color: white;
+    background-color: #554f4f;
+}
+button.button:hover{
+    background-color: rgb(155, 151, 151);
+}
+.row input {
+    padding: 10px 3px;
+    margin: 14px 0;
+    border-radius: 10px;
+    outline: none;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgba(45, 45, 45, 0.653);
+    color: white;
+    border: none;
+}
+.zero {
+    width: 110px !important;
+    height: 50px !important;
+    border-radius: 50px !important;
+}
+.orange{
+    background-color: tomato !important;
+}
+.orange:hover{
+    background-color: rgb(249, 127, 105) !important;
+}
+.gray:hover{
+    background-color: rgb(153, 148, 148) !important;
+}
+.gray {
+    background-color: rgb(141 134 134) !important;
+}
